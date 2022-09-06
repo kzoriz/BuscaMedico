@@ -10,4 +10,4 @@ class Speciality(models.Model):
     def __str__(self):
         return '{}'.format(self.name)
 
-#dando tudo errado!/545
+#dando
