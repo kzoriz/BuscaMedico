@@ -11,7 +11,8 @@ class Profile(models.Model):
 
     favorites = models.ManyToManyField(User, blank=True, related_name='favorites')
     specialties = models.ManyToManyField(Speciality, blank=True, related_name='specialties')
-    address = models.ManyToManyField(Address, blank=True, related_name='address')
+    address = models.ManyToManyField(Address, blank=True, related_name='addressProfile')
+
     def __str__(self):
         return '{}'.format(self.user.username)
 
