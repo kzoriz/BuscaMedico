@@ -2,3 +2,4 @@ development.py
 production.py
 testing.py
 /venv
+db.sqlite3
